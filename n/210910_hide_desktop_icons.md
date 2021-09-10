@@ -2,7 +2,7 @@
 title: Hide ubuntu desktop icons
 ---
 
-# Hide ubuntu desktop icons
+# {{ page.title }}
 
 ```bash
 gsettings set org.gnome.shell.extensions.desktop-icons show-home false
