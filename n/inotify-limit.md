@@ -1,5 +1,5 @@
 ---
-food: good
+layout: default
 ---
 
 # Change inotify limit
