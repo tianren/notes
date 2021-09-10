@@ -1,5 +1,5 @@
 ---
-title: test
+title: Hide desktop icons
 ---
 
 # Hide desktop icons
