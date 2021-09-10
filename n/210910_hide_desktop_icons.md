@@ -1,13 +1,13 @@
 ---
-title: Hide desktop icons
+title: Hide ubuntu desktop icons
 ---
 
-# Hide desktop icons
+# Hide ubuntu desktop icons
 
 ```bash
 gsettings set org.gnome.shell.extensions.desktop-icons show-home false
 gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
 
-\# Optional
+# Optional
 gsettings set org.gnome.desktop.background show-desktop-icons false
 ```

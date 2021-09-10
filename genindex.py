@@ -22,11 +22,14 @@ for p in search_pathes:
 title_link_map = []
 for file in candidates:
     with open(file) as f:
-        # only check the first 3 lines
-        for _ in range(3):
+        # only check the first 10 lines
+        for _ in range(10):
             ln = f.readline()
             if ln.startswith("title:"):
                 title_link_map.append((ln[6:].strip(), os.path.splitext(file)[0] + ".html"))
+                break
+            if ln.startswith("# "):
+                title_link_map.append((ln[2:].strip(), os.path.splitext(file)[0] + ".html"))
                 break
 
 # print (title_link_map)
