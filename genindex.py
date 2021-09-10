@@ -35,6 +35,6 @@ for file in candidates:
 # print (title_link_map)
 
 with open("index.md", "w") as f:
-    f.write("# Note index")
+    f.write("# Note index\n\n")
     for title, link in title_link_map:
         f.write("[{}]({})\n\n".format(title, link))
