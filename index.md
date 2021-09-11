@@ -1,8 +1,8 @@
 # Note index
 
-[Hide ubuntu desktop icons](n/210910_hide_desktop_icons.html)
+{% for post in site.posts %}
+  [{{ post.title }}]({{ post.url }})
 
-[Essential programs](n/essential-programs.html)
+    {{ post.excerpt }}
 
-[Change inotify limit](n/inotify-limit.html)
-
+{% endfor %}
