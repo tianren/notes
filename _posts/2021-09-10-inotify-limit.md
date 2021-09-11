@@ -1,12 +1,8 @@
 ---
 title: Change inotify limit
 layout: post
-system: Ubuntu 20.04
+tags: [Ubuntu 20.04]
 ---
-
-{% if page.system %}System: {{ page.system }}{% endif %}
-
-{% if page.title %}# {{ page.title }}{% endif %}
 
 add file `/etc/sysctl.d/100-inotify.conf` with following
 ```bash

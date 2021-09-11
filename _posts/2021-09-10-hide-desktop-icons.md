@@ -1,12 +1,8 @@
 ---
 title: Hide ubuntu desktop icons
 layout: post
-system: Ubuntu 20.04
+tags: [Ubuntu 20.04]
 ---
-
-{% if page.system %}System: {{ page.system }}{% endif %}
-
-{% if page.title %}# {{ page.title }}{% endif %}
 
 ```bash
 gsettings set org.gnome.shell.extensions.desktop-icons show-home false

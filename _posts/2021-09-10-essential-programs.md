@@ -3,8 +3,6 @@ title: Essential programs
 layout: post
 ---
 
-{% if page.title %}# {{ page.title }}{% endif %}
-
 ```bash
 # command line
 sudo apt-get install bash-completion htop screen texlive-full subversion iotop iftop terminator ipython3 python3-pip apt-transport-https
