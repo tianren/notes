@@ -1,11 +1,12 @@
 ---
 title: Essential programs
 layout: post
+tags: [Ubuntu 20.04]
 ---
 
 ```bash
 # command line
-sudo apt-get install bash-completion htop screen texlive-full subversion iotop iftop terminator ipython3 python3-pip apt-transport-https
+sudo apt-get install bash-completion htop screen curl texlive-full subversion iotop iftop terminator ipython3 python3-pip apt-transport-https
 
 # graphic
 sudo apt-get install gimp xfce4 i3 mpv vlc obs-studio meld mousepad
