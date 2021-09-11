@@ -1,8 +1,12 @@
 ---
+title: Change inotify limit
 layout: default
+system: Ubuntu 20.04
 ---
 
-# Change inotify limit
+{% if page.system %}System: {{ page.system }}{% endif %}
+
+{% if page.title %}# {{ page.title }}{% endif %}
 
 add file `/etc/sysctl.d/100-inotify.conf` with following
 ```bash
