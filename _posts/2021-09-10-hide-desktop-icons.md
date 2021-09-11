@@ -1,6 +1,6 @@
 ---
 title: Hide ubuntu desktop icons
-layout: default
+layout: post
 system: Ubuntu 20.04
 ---
 

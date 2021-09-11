@@ -1,6 +1,6 @@
 ---
 title: Essential programs
-layout: default
+layout: post
 ---
 
 {% if page.title %}# {{ page.title }}{% endif %}

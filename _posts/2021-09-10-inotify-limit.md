@@ -1,6 +1,6 @@
 ---
 title: Change inotify limit
-layout: default
+layout: post
 system: Ubuntu 20.04
 ---
 
