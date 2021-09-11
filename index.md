@@ -3,6 +3,6 @@ layout: default
 ---
 
 {% for post in site.posts %}
-## {{ post.date }} [{{ post.title }}]({{ post.url | relative_url }})
+## {{ post.date | date "%F" }} [{{ post.title }}]({{ post.url | relative_url }})
 
 {% endfor %}
