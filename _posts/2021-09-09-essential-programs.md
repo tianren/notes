@@ -13,7 +13,7 @@ sudo snap install --classic go
 
 # graphic programs
 sudo apt-get install xfce4 i3 mpv vlc gimp gthumb obs-studio meld mousepad terminator texlive-full
-sudo snap install --classic code
+sudo snap install --classic code slack
 sudo snap remove snap-store # optional
 
 # python lib
